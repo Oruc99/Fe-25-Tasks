@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    background-color: rgb(21, 30, 74);
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.login{
+    display: flex;
+    gap: 7px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.a-s{
+    display: flex;
+    gap: 45px;
+}
+.header p {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.login a{
+    padding: 10px 27px;
+    border-radius: 8px;
+    transition: 550ms;
+}
+.login a:hover{
+    background-color: rgb(0, 145, 255);
+}
+.face{
+    width: 100%;
+    background-color: rgb(21, 30, 74);
+}
+.welcome{
+    color: rgb(0, 145, 255);
+    padding-top: 80px;
+    text-align: center;
+}
+h1{
+    color: white;
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.p{
+    color: white;
+    padding-top: 20px;
+    opacity: 0.6;
+    text-align: center;
+}
+.btns{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.btns button{
+    color: rgb(0, 145, 255);
+    padding: 11px 19px;
+    border: 1px solid rgb(0, 145, 255);
+    color: rgb(0, 145, 255);
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 400ms;
+}
+.btns button:hover{
+    color: white;
+    background-color: rgb(0, 145, 255);
+}
+.card hr{
+    width: 22%;
+    border-radius: 5px;
+    margin: 15px 25px;
+    border: 2px solid red;
+}
+.cards{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    margin-top: 110px;
+    padding-bottom: 100px;
+}
+.card{
+    width: 22%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.card i{
+    font-size: 50px;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 23px 23px;
+}
+.cards h3{
+    padding: 0 23px;
+    font-size: 22px;
+}
+.card p {
+    padding: 22px 33px 38px 23px;
+    opacity: 0.7;
+}
+.card3{
+    width: 22%;
+    background-color: rgb(0, 145, 255);
+}
+.card3 p{
+    padding: 22px 33px 38px 23px;
+    opacity: 0.7;
+}
+.card3 i{
+    font-size:45px;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 23px 23px;
+}
+.card3 hr{
+    width: 22%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 15px 25px;
+}
+.main{
+    width: 83%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main a{
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+    font-size: 22px;
+    font-weight: 600;
+}
+.main h2{
+    font-size: 38px;
+}
+.main p{
+    opacity: 0.7;
+    font-size: 23px;
+}
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 30px 0;
+}
+.right{
+    width: 33%;
+    height: 240px;
+}
+.main2{
+    width: 83%;
+    margin: 120px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.practice{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 145, 255);
+}
+.main2 h2{
+    font-size: 38px;
+}
+.lorem{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.main3{
+    width: 83%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 20%;
+    height: 560px;
+}
+.sekil{
+    width: 100%;
+    height: 57%;
+}
+.english{
+    color: rgb(0, 145, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+.ulduz{
+    background-color: black;
+    width: 55px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.dil{
+    display: flex;
+    width: 85%;
+    margin: 15px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.design{
+    font-size: 20px;
+    font-weight: 600;
+}
+.op{
+    opacity: 0.8;
+}
+.graphic{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85%;
+    margin: 10px auto;
+}
+.dollar{
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+.green{
+    padding-left: 10px;
+    color: rgb(0, 218, 0);
+}
+.graphic button{
+    width: 125px;
+    padding: 8px 17px;
+    background-color: transparent;
+    border:1px solid  rgb(0, 145, 255);
+    border-radius: 20px;
+    color: rgb(0, 145, 255);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px auto;
+    transition: 300ms;
+}
+.graphic button:hover{
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+.sekil1{
+    background-image: url('https://www.dotyeti.com/wp-content/uploads/2021/05/ux-indonesia-qC2n6RQU4Vw-unsplash-scaled.jpg');
+    background-size: cover;
+}
+.sekil2{
+    background-image: url('https://www.training.com.au/wp-content/uploads/IndustryInsider_WattsDesignFeature.png');
+    background-size: 170% 100% ;
+    background-position: center;
+
+}
+.sekil3{
+    background-image: url('https://previews.123rf.com/images/yupiramos/yupiramos1709/yupiramos170912257/85616093-design-thinking-creative-ideas-vector-illustration-graphic-design.jpg');
+    background-size:cover;
+}
+.sekil4{
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*xv6BmiE9f9wJ_KDe');
+    background-size: cover;
+}
+.main4{
+    width: 83%;
+    margin: 140px auto 90px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.main4-practice{
+    color: rgb(0, 145, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+.main4 h2{
+    font-size: 38px;
+}
+.main4-lorem{
+    opacity: 0.7;
+}
+.profiles{
+    display: flex;
+    justify-content:space-around;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+.profile-sekil1{
+    background-image: url('https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo=');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width:200px;
+    height: 200px;
+}
+.profile-sekil2{
+    background-image: url('https://media.licdn.com/dms/image/D4D03AQHsYDUlAxhG5w/profile-displayphoto-shrink_800_800/0/1672745986136?e=2147483647&v=beta&t=HqD0sPnj054WnqJ6TlQQ_CA67f13wzbtwcvEsVdNmb4');
+    background-size: cover;
+    border-radius: 100%;
+    width:200px;
+    height: 200px;
+}
+.inf{
+    opacity: 0.7;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.pro-ulduz{
+    font-size: 24px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.designer{
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.featured{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.featured h2{
+    font-size: 42px;
+}
+.featured-lorem{
+    opacity: 0.7;
+    font-size: 21px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.int{
+    width: 46%;
+    height: 43px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 7px 0 0 7px;
+}
+.int:focus{
+    outline: none;
+}
+.sub{
+    height: 43px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(0, 145, 255);
+    border: none;
+    border-radius: 0 7px 7px 0;
+}
+.sub:hover{
+    background-color: rgb(0, 131, 232);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(21, 30, 74);
+    margin-top: 160px;
+    color: white;
+}
+.footer h3{
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding:110px 0;
+}
+.column1-p{
+    font-weight: 100;
+}
+.column p{
+    font-size: 19px;
+}
+
+
+
+
+
